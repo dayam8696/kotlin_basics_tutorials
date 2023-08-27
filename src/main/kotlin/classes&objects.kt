@@ -8,6 +8,15 @@ fun main() {
     println(tata.type)
 
     tata.driveCar()
+
+    val p1 = person("dayam" , 21)
+    val p2 = person ("ayan" , 17)
+
+    println(p1.name)
+    println(p1.canVote())
+
+    println(p2.name)
+    println(p2.canVote())
 }
 
 class car (val name : String , val type : String ,var kmRan:Int)
@@ -17,5 +26,12 @@ class car (val name : String , val type : String ,var kmRan:Int)
     }
     fun applyBreak(){
         println("Applied Breaks ")
+    }
+}
+
+class person(val name : String  , var age : Int ){
+    // method
+    fun canVote():Boolean{
+        return age>18
     }
 }
