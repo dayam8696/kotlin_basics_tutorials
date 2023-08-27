@@ -1,4 +1,5 @@
 fun main() {
+    // class car
      val maruti = car("swift", "petrol" , 100)
     val tata =  car ("nexon" , "electric" , 200)
    println(maruti.name)
@@ -8,6 +9,8 @@ fun main() {
     println(tata.type)
 
     tata.driveCar()
+
+    // class person
 
     val p1 = person("dayam" , 21)
     val p2 = person ("ayan" , 17)
