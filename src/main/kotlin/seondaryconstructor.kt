@@ -10,7 +10,6 @@ class Automobile1(val name:String , val tyers:Int , val maxsitting:Int ,val engi
     }
     constructor(name:String , engineType: String):
             this(name ,4 ,5 ,engineType)
-    //
 
 
 
