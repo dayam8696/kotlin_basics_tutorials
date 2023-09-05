@@ -21,6 +21,7 @@ abstract  class xhape :Dragable {
 
 }
 
+// derived classes;
 class xircle (val radius: Double) : xhape(){
    override fun area(): Double = Math.PI * radius * radius
     override fun drag() {
