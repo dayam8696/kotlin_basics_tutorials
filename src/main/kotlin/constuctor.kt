@@ -1,5 +1,5 @@
 fun main() {
-    var car = Automobile("car ",4,6,true)
+    var car = Automobile("car ",4,6,true) // object creation
     var pm = Person("dayam" , 21)
     println(pm.name)
     println(pm.age)
